@@ -1,4 +1,14 @@
 module.exports = {
+
+  test_settings: {
+    default: {
+      screenshots: {
+        enabled: true,
+        path: '/screenshots'
+      }
+    }
+  },
+
     "src_folders" : ["tests"],
     "page_objects_path" : ["pages"],
   
@@ -15,4 +25,5 @@ module.exports = {
         }
       }
     }
+    
   };

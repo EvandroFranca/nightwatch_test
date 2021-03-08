@@ -1,0 +1,85 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Google Search",
+    "line": 3,
+    "id": "google-search",
+    "tags": [],
+    "uri": "features\\google.feature",
+    "elements": [
+      {
+        "id": "google-search;searching-google",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Searching Google",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "I open Google's search page",
+            "match": {
+              "location": "step-definitions\\google.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 8,
+            "name": "preencho o campo pesquisar com \"Novigi Solution\"",
+            "match": {
+              "location": "step-definitions\\google.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "clico no botao pesquisar",
+            "match": {
+              "location": "step-definitions\\google.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6537000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 10,
+            "name": "clico no primeiro link",
+            "match": {
+              "location": "step-definitions\\google.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6819000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
